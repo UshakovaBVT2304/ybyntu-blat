@@ -1,1 +1,2 @@
 mkdir -p /home/<user_name>/syslogs
+vim /home/virtualbox/monitor.sh
