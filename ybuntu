@@ -1,1 +1,2 @@
-0 * * * * /home/virtualbox/monitor.sh >> /home/virtualbox/syslogs/cron.log 2>&1
+chmod 755 /home/virtualbox/syslogs/
+chmod 644 /home/virtualbox/syslogs/cron.log
