@@ -1,1 +1,5 @@
-chmod +x /home/virtualbox/monitor.sh
+LOG_DIR="/home/$(whoami)/syslogs"  # Используем свою домашнюю директорию
+LOG_FILE="$LOG_DIR/system_monitor.log"
+
+# Создаем директорию для логов
+mkdir -p $LOG_DIR
